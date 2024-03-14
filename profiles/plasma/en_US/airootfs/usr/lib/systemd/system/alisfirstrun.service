@@ -1,0 +1,11 @@
+[Unit]
+Description=alis first run service
+After=network.target
+
+[Service]
+ExecStart=/bin/bash -c "/usr/local/bin/alisfirstrun.sh"
+Restart=no
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
