@@ -19,25 +19,25 @@ Alis Linux/GNU/X (formerly Univalent Versatile Environment) is an Arch-based and
     <a href="https://www.archlinux.org/">
         <img src="https://img.shields.io/badge/BASE-Arch%20Linux-blue?style=flat-square&logo=arch-linux" alt="Base">
     </a>
-    <a href="https://github.com/alislinux/alis/actions">
-        <img src="https://img.shields.io/github/workflow/status/alislinux/alis/ShellCheck%20CL?style=flat-square">
+    <a href="https://github.com/alislinux/alislinux/actions">
+        <img src="https://img.shields.io/github/workflow/status/alislinux/alislinux/ShellCheck%20CL?style=flat-square">
     </a>
-    <a href="https://github.com/alislinux/alis/issues">
+    <a href="https://github.com/alislinux/alislinux/issues">
         <img src="https://img.shields.io/github/issues/alislinux/alis?color=violet&style=flat-square&logo=github" alt="Issues">
     </a>
-    <a href="https://github.com/alislinux/alis/stargazers">
+    <a href="https://github.com/alislinux/alislinux/stargazers">
         <img src="https://img.shields.io/github/stars/alislinux/alis?color=yellow&style=flat-square&logo=github">
     </a>
-    <a href="https://github.com/alislinux/alis/network/members">
+    <a href="https://github.com/alislinux/alislinux/network/members">
         <img src="https://img.shields.io/github/forks/alislinux/alis?style=flat-square">
     </a>
-    <a href="https://github.com/alislinux/alis/releases">
+    <a href="https://github.com/alislinux/alislinux/releases">
         <img src="https://img.shields.io/github/v/release/alislinux/alis?color=blue&include_prereleases&style=flat-square" alt="release">
     </a>
-    <a href="https://github.com/alislinux/alis/commits/">
+    <a href="https://github.com/alislinux/alislinux/commits/">
         <img src="https://img.shields.io/github/last-commit/alislinux/alis?style=flat-square">
     </a>
-    <a href="https://github.com/alislinux/alis/">
+    <a href="https://github.com/alislinux/alislinux/">
         <img src="https://img.shields.io/github/repo-size/alislinux/alis?style=flat-square">
     </a>
 </p>
