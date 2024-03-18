@@ -175,7 +175,7 @@ xfce4-screenshooter
 
 # System Tools
 archlinux-appstream-data
-gnome-software
+gnome-software-packagekit
 fwupd
 vte3
 tkpacman
