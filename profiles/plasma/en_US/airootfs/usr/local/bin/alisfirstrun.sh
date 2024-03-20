@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LAYOUT=$(localectl | sed -n 3p | sed -e "s/X11 Layout://g" | sed 's/^ *\| *$//')
+LAYOUT=$(localectl | grep "X11 Layout" | sed -e "s/X11 Layout://g" | sed 's/^ *\| *$//')
 
 # only works on gnome
 #sed -e s/"'xkb', '.*'"/"'xkb', '$LAYOUT'"/g -i /etc/dconf/db/local.d/00-default
