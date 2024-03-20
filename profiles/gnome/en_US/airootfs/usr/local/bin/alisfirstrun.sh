@@ -3,8 +3,8 @@
 LAYOUT=$(localectl | grep "X11 Layout" | sed -e "s/X11 Layout://g" | sed 's/^ *\| *$//')
 
 # only works on gnome
-#sed -e s/"'xkb', '.*'"/"'xkb', '$LAYOUT'"/g -i /etc/dconf/db/local.d/00-default
-#dconf update
+sed -e s/"'xkb', '.*'"/"'xkb', '$LAYOUT'"/g -i /etc/dconf/db/local.d/00-default
+dconf update
 
 sed -e s/"Default Layout=.*"/"Default Layout=$LAYOUT"/g -i /usr/share/alislinux/fcitx5-profile
 sed -e s/"DefaultIM=.*"/"DefaultIM=anthy"/g -i /usr/share/alislinux/fcitx5-profile

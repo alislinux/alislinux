@@ -28,7 +28,8 @@ primary-color='#3071AE'
 secondary-color='#000000'
 
 [org/gnome/desktop/input-sources]
-sources=[('xkb', 'jp')]
+mru-sources=[('xkb', 'us')]
+sources=[('xkb', 'us')]
 xkb-options=['shift:both_capslock']
 
 [org/gnome/desktop/interface]
@@ -74,6 +75,26 @@ titlebar-font='IPAexゴシック Bold 11'
 [org/gnome/evolution-data-server]
 migrated=true
 network-monitor-gio-name=''
+
+[org/gnome/evolution]
+version='3.50.4'
+
+[org/gnome/evolution/calendar]
+week-start-day-name='monday'
+work-day-friday=true
+work-day-monday=true
+work-day-saturday=false
+work-day-sunday=false
+work-day-thursday=true
+work-day-tuesday=true
+work-day-wednesday=true
+
+[org/gnome/evolution/mail]
+browser-close-on-reply-policy='ask'
+forward-style-name='attached'
+image-loading-policy='never'
+paned-size=1316939
+reply-style-name='quoted'
 
 [org/gnome/gedit/plugins]
 active-plugins=['spell', 'sort', 'modelines', 'docinfo', 'filebrowser', 'openlinks']
@@ -135,11 +156,10 @@ command='systemctl reboot'
 name='Reboot without confirmation'
 
 [org/gnome/shell]
-app-picker-layout=[{'bssh.desktop': <{'position': <0>}>, 'bvnc.desktop': <{'position': <1>}>, 'avahi-discover.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Extensions.desktop': <{'position': <4>}>, 'org.gnome.eog.desktop': <{'position': <5>}>, 'qv4l2.desktop': <{'position': <6>}>, 'qvidcap.desktop': <{'position': <7>}>, 'brasero.desktop': <{'position': <8>}>, 'org.gnome.Settings.desktop': <{'position': <9>}>, 'org.gnome.Calendar.desktop': <{'position': <10>}>, 'org.gnome.tweaks.desktop': <{'position': <11>}>, 'org.gnome.Screenshot.desktop': <{'position': <12>}>, 'galculator.desktop': <{'position': <13>}>, 'gparted.desktop': <{'position': <14>}>, 'libreoffice-base.desktop': <{'position': <15>}>, 'libreoffice-calc.desktop': <{'position': <16>}>, 'libreoffice-draw.desktop': <{'position': <17>}>, 'libreoffice-impress.desktop': <{'position': <18>}>, 'libreoffice-math.desktop': <{'position': <19>}>, 'libreoffice-startcenter.desktop': <{'position': <20>}>, 'org.gnome.Logs.desktop': <{'position': <21>}>, 'cups.desktop': <{'position': <22>}>, 'system-config-printer.desktop': <{'position': <23>}>}, {'org.gnome.Rhythmbox3.desktop': <{'position': <0>}>, 'vim.desktop': <{'position': <1>}>, 'xarchiver.desktop': <{'position': <2>}>, 'xsane.desktop': <{'position': <3>}>, 'org.gnome.Terminal.desktop': <{'position': <4>}>, 'vlc.desktop': <{'position': <5>}>, 'arandr.desktop': <{'position': <6>}>, 'l3afpad.desktop': <{'position': <7>}>, 'org.fcitx.Fcitx5.desktop': <{'position': <8>}>, 'org.rncbc.qjackctl.desktop': <{'position': <9>}>, 'calamares.desktop': <{'position': <10>}>, 'org.fcitx.fcitx5-migrator.desktop': <{'position': <11>}>, 'fcitx5-configtool.desktop': <{'position': <12>}>, 'gnome-system-monitor.desktop': <{'position': <13>}>, 'pavucontrol.desktop': <{'position': <14>}>, 'kbd-layout-viewer5.desktop': <{'position': <15>}>, 'org.gnome.Evince.desktop': <{'position': <16>}>, 'gcdmaster.desktop': <{'position': <17>}>, 'lftp.desktop': <{'position': <18>}>, 'stoken-gui.desktop': <{'position': <19>}>, 'stoken-gui-small.desktop': <{'position': <20>}>}]
 disable-extension-version-validation=true
 disabled-extensions=['window-list@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com']
 enabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'clipboard-indicator@tudmotu.com', 'dash-to-dock@micxgx.gmail.com', 'pamac-updates@manjaro.org', 'ding@rastersoft.com', 'kimpanel@kde.org', 'gtk4-ding@smedius.gitlab.com']
-favorite-apps=['calamares.desktop', 'firefox.desktop', 'claws-mail.desktop', 'org.gnome.Nautilus.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop']
+favorite-apps=['calamares.desktop', 'firefox.desktop', 'org.mozilla.Thunderbird.desktop', 'org.gnome.Nautilus.desktop', 'libreoffice-startcenter.desktop', 'org.gnome.Software.desktop']
 welcome-dialog-last-shown-version='42.0'
 
 [org/gnome/shell/extensions/dash-to-dock]
@@ -167,7 +187,7 @@ show-screen-recording-ui=@as []
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1651497135
+check-timestamp=int64 1710898812
 first-run=false
 
 [org/gnome/terminal/legacy/profiles:]
@@ -214,4 +234,3 @@ sort-order='ascending'
 type-format='category'
 window-position=(78, 27)
 window-size=(946, 703)
-

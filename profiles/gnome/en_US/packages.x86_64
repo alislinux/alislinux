@@ -202,10 +202,12 @@ vlc
 
 # Internet
 firefox
-claws-mail
+firefox-i18n
+thunderbird
 
 # Office
 libreoffice-fresh
+libreoffice-fresh-ja
 evince
 
 # Printer & Scanner

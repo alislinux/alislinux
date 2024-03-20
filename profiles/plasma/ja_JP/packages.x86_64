@@ -248,10 +248,12 @@ rhythmbox
 
 # Internet
 firefox
-claws-mail
+firefox-i18n-ja
+thunderbird
 
 # Office
 libreoffice-fresh
+libreoffice-fresh-ja
 okular
 
 # Input Method
