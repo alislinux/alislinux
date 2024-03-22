@@ -148,6 +148,7 @@ noto-fonts-cjk
 noto-fonts
 noto-fonts-emoji
 ipa-fonts
+ttf-vlgothic
 
 # Installer
 grub

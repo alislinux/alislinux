@@ -157,6 +157,7 @@ noto-fonts-cjk
 noto-fonts
 noto-fonts-emoji
 ipa-fonts
+ttf-vlgothic
 
 # Graphics Driver
 xf86-video-amdgpu
@@ -207,7 +208,6 @@ thunderbird
 
 # Office
 libreoffice-fresh
-libreoffice-fresh-ja
 evince
 
 # Printer & Scanner
