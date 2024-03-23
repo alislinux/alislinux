@@ -168,7 +168,7 @@ screengrab
 archlinux-appstream-data
 discover
 packagekit-qt6
-packagekit-qt5
+qt6-webview
 fwupd
 vte3
 tkpacman
