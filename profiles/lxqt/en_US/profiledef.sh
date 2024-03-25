@@ -3,7 +3,7 @@
 
 iso_name="alis-lxqt-en"
 iso_label="ALIS_2404L"
-iso_publisher="NakamuraJukebox"
+iso_publisher="NakamuraMusicIndustries"
 iso_application="Alis Installation Drive"
 iso_version="24.04"
 install_dir="alis"

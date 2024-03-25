@@ -7,8 +7,8 @@
 Alis Linux/GNU/X (formerly Univalent Versatile Environment) is an Arch-based and user-friendly distro.
 
 <p align="center">
-    <a href="https://njb-fm.github.io/">
-        <img src="https://img.shields.io/badge/Developer-NakamuraJukebox-blue?style=flat-square">
+    <a href="https://nmimusic.github.io/">
+        <img src="https://img.shields.io/badge/Developer-NakamuraMusicalIndustries-blue?style=flat-square">
     </a>
     <a href="https://sourceforge.net/projects/alislinux/">
         <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=flat-square">
@@ -42,13 +42,10 @@ Alis Linux/GNU/X (formerly Univalent Versatile Environment) is an Arch-based and
     </a>
 </p>
 
-(C) 2022-2024 Naka-mura Jukebox.
+(C) 2022-2024 Nakamura Musical Industries.
 ----
 
 # Overview
 * Tuned desktop environments
 * Relatively lightweight due to RT kernel
-* 5 official flavours - LXQt / Amber (with LXQt) / Xfce / KDE Plasma / Studio (with Plasma Desktop)
-
-For an overview of each channel, please read the "README" in each root directory.
-
+* 5 official flavours - LXQt / Amber (with LXQt) / Xfce / KDE Plasma / GNOME

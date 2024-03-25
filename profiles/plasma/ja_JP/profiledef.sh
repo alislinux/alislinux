@@ -3,7 +3,7 @@
 
 iso_name="alis-plasma-ja"
 iso_label="ALIS_2404P"
-iso_publisher="NakamuraJukebox"
+iso_publisher="NakamuraMusicIndustries"
 iso_application="Alis Installation Drive"
 iso_version="24.04"
 install_dir="alis"
