@@ -28,20 +28,20 @@ primary-color='#3071AE'
 secondary-color='#000000'
 
 [org/gnome/desktop/input-sources]
-mru-sources=[('xkb', 'us')]
-sources=[('xkb', 'us')]
+mru-sources=[('xkb', 'jp')]
+sources=[('xkb', 'jp')]
 xkb-options=['shift:both_capslock']
 
 [org/gnome/desktop/interface]
 color-scheme='default'
 cursor-theme='Adwaita'
-document-font-name='IPAexゴシック 11'
+document-font-name='VL ゴシック 11'
 font-antialiasing='grayscale'
 font-hinting='slight'
-font-name='IPAexゴシック 11'
+font-name='VL ゴシック 11'
 gtk-theme='Amber'
 icon-theme='oxygen'
-monospace-font-name='Source Code Pro 10'
+monospace-font-name='Liberation Mono 10'
 
 [org/gnome/desktop/notifications]
 application-children=['firefox', 'gnome-power-panel', 'org-gnome-nautilus']
