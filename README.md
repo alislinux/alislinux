@@ -23,22 +23,22 @@ Alis Linux/GNU/X (formerly Univalent Versatile Environment) is an Arch-based and
         <img src="https://img.shields.io/github/workflow/status/alislinux/alislinux/ShellCheck%20CL?style=flat-square">
     </a>
     <a href="https://github.com/alislinux/alislinux/issues">
-        <img src="https://img.shields.io/github/issues/alislinux/alis?color=violet&style=flat-square&logo=github" alt="Issues">
+        <img src="https://img.shields.io/github/issues/alislinux/alislinux?color=violet&style=flat-square&logo=github" alt="Issues">
     </a>
     <a href="https://github.com/alislinux/alislinux/stargazers">
-        <img src="https://img.shields.io/github/stars/alislinux/alis?color=yellow&style=flat-square&logo=github">
+        <img src="https://img.shields.io/github/stars/alislinux/alislinux?color=yellow&style=flat-square&logo=github">
     </a>
     <a href="https://github.com/alislinux/alislinux/network/members">
-        <img src="https://img.shields.io/github/forks/alislinux/alis?style=flat-square">
+        <img src="https://img.shields.io/github/forks/alislinux/alislinux?style=flat-square">
     </a>
     <a href="https://github.com/alislinux/alislinux/releases">
-        <img src="https://img.shields.io/github/v/release/alislinux/alis?color=blue&include_prereleases&style=flat-square" alt="release">
+        <img src="https://img.shields.io/github/v/release/alislinux/alislinux?color=blue&include_prereleases&style=flat-square" alt="release">
     </a>
     <a href="https://github.com/alislinux/alislinux/commits/">
-        <img src="https://img.shields.io/github/last-commit/alislinux/alis?style=flat-square">
+        <img src="https://img.shields.io/github/last-commit/alislinux/alislinux?style=flat-square">
     </a>
     <a href="https://github.com/alislinux/alislinux/">
-        <img src="https://img.shields.io/github/repo-size/alislinux/alis?style=flat-square">
+        <img src="https://img.shields.io/github/repo-size/alislinux/alislinux?style=flat-square">
     </a>
 </p>
 
