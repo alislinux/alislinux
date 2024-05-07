@@ -2,10 +2,10 @@
 # shellcheck disable=SC2034
 
 iso_name="alis-plasma-ja"
-iso_label="ALIS_2404P"
+iso_label="ALIS_2405P"
 iso_publisher="NakamuraMusicIndustries"
 iso_application="Alis Installation Drive"
-iso_version="24.04"
+iso_version="24.05"
 install_dir="alis"
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.grub.esp' 'uefi-x64.grub.eltorito')
 arch="x86_64"
