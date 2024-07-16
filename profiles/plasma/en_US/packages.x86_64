@@ -232,7 +232,7 @@ tkpacman
 base-devel
 aptpac
 dnfpac
-alis-hello
+#alis-hello
 curl
 git
 partitionmanager

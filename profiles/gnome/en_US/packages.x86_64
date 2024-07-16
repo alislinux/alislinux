@@ -185,7 +185,7 @@ tkpacman
 base-devel
 aptpac
 dnfpac
-alis-hello
+#alis-hello
 curl
 git
 gnome-system-monitor
@@ -229,8 +229,8 @@ oxygen-icons
 amber-theme-git
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-clipboard-indicator
-#gnome-shell-extension-desktop-icons-ng
-gnome-shell-extension-gtk4-desktop-icons-ng
+gnome-shell-extension-desktop-icons-ng
+#gnome-shell-extension-gtk4-desktop-icons-ng
 gnome-shell-extension-kimpanel-git
 
 # Input Method

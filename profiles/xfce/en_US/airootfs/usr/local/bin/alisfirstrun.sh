@@ -1,14 +1,15 @@
 #!/bin/bash
 
-LAYOUT=$(localectl | grep "X11 Layout" | sed -e "s/X11 Layout://g" | sed 's/^ *\| *$//')
+LAYOUTS=($(localectl | grep "X11 Layout" | sed -e "s/X11 Layout://g" | sed 's/^ *\| *$//' | sed "s/,/ /g"))
+NUM=$((${#LAYOUTS[@]} - 1))
 
 # only works on gnome
-#sed -e s/"'xkb', '.*'"/"'xkb', '$LAYOUT'"/g -i /etc/dconf/db/local.d/00-default
+#sed -e s/"'xkb', '.*'"/"'xkb', '${LAYOUTS[${NUM}]}'"/g -i /etc/dconf/db/local.d/00-default
 #dconf update
 
-sed -e s/"Default Layout=.*"/"Default Layout=$LAYOUT"/g -i /usr/share/alislinux/fcitx5-profile
+sed -e s/"Default Layout=.*"/"Default Layout=${LAYOUTS[${NUM}]}"/g -i /usr/share/alislinux/fcitx5-profile
 sed -e s/"DefaultIM=.*"/"DefaultIM=anthy"/g -i /usr/share/alislinux/fcitx5-profile
-sed -e s/"Name=keyboard-.*"/"Name=keyboard-$LAYOUT"/g -i /usr/share/alislinux/fcitx5-profile
+sed -e s/"Name=keyboard-.*"/"Name=keyboard-${LAYOUTS[${NUM}]}"/g -i /usr/share/alislinux/fcitx5-profile
 
 homedir="/home/*"
 dirs=`find $homedir -maxdepth 0 -type d`
